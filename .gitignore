@@ -3,3 +3,28 @@ node_modules
 .next
 app
 dist
+.vscode
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel deployment files
+.vercel
+
+# yarn.lock
+yarn.lock
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Next.js Image Optimization
+# https://nextjs.org/docs/basic-features/image-optimization#disabling-image-optimization
+public/static/images
+!public/static/images/.gitkeep
+
