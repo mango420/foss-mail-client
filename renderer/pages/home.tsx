@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import MailLayout from '../common/components/MailLayout'
 
 export default function HomePage() {
   return (
@@ -9,7 +10,7 @@ export default function HomePage() {
       <Head>
         <title>Home</title>
       </Head>
-      <h1>Home</h1>
+      <MailLayout />
     </React.Fragment>
   )
 }
