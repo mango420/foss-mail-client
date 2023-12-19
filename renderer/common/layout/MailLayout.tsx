@@ -1,11 +1,12 @@
 import React from 'react';
+import FullMail from '../components/FullMail';
 import MailList from '../components/MailList';
 
 const MailLayout = () => {
     return (
         <div className='mail-container'>
             <MailList />
-            <div className='mail-content-container'></div>
+            <FullMail />
         </div>
     );
 }
